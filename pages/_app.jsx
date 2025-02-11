@@ -52,7 +52,21 @@ export default function AwardApp({ Component, pageProps }) {
       icon: "fal fa-handshake",
       activeIcon: "fa fa-handshake",
       href: "/partners",
-    }
+    },
+    {
+      link: true,
+      name: "Term of Service",
+      icon: "fal fa-handshake",
+      activeIcon: "fa fa-handshake",
+      href: "/tos",
+    },
+    {
+      link: true,
+      name: "Privacy Policy",
+      icon: "fal fa-handshake",
+      activeIcon: "fa fa-handshake",
+      href: "/privacy",
+    },
   ]
 
   return (
