@@ -10,20 +10,20 @@ export default function Index() {
       <img width="500" src="/img/bck.png" />
       </div>
         <p className="animateHeader text-4xl font-extrabold text-center text-white">
-          MusicMaker
+          Milo
         </p>
         <p className="animateHeader text-white text-opacity-50 text-center mt-5">
-       How about moderating your own server with MusicMaker? Create your own free world and create your own playlist, experience this pleasure with the best sounds. 
+       Chào mừng bạn đến với thế giới quản lý server cùng Milo Bot! Với Milo Bot, bạn có thể trải nghiệm niềm vui từ việc tùy chỉnh và điều hành server của mình một cách dễ dàng.
 	  </p>
         <div className="animateHeader mt-10 flex flex-wrap items-center justify-center gap-x-4">
   
-            <Link href={"https://discord.com/api/oauth2/authorize?client_id=774043716797071371&permissions=277028620608&scope=applications.commands%20bot"}>
+            <Link href={"https://dsc.gg/milo-bot"}>
               <a
                 className={
                   "flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " 
                 }
               >
-          Invite MusicMaker
+          Invite Bot
               </a>
               </Link>
         </div>
@@ -42,8 +42,8 @@ export default function Index() {
           <div className="col-span-4">
             <p className="text-white text-4xl font-bold" dangerouslySetInnerHTML={{ __html:"MusicMaker" }} />
             <p className="text-white text-md font-medium text-gray-500/75" dangerouslySetInnerHTML={{ __html: "How about creating the best environment to relax yourself with your own emotions?" }}/>
-            <a href="https://discord.com/api/oauth2/authorize?client_id=774043716797071371&permissions=277028620608&scope=bot%20applications.commands" className={"mt-10 flex items-center px-4 justify-center gap-x-2 shadow-lg shadow-amber-600/20 cursor-pointer rounded-xl py-4 font-medium bg-gradient-to-r from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white"}>
-              <i className="fab fa-discord mr-2" />Invite MusicMaker
+            <a href="https://dsc.gg/milo-bot" className={"mt-10 flex items-center px-4 justify-center gap-x-2 shadow-lg shadow-amber-600/20 cursor-pointer rounded-xl py-4 font-medium bg-gradient-to-r from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white"}>
+              <i className="fab fa-discord mr-2" />Invite Bot
             </a>
           </div>
 
@@ -81,11 +81,11 @@ export default function Index() {
       <div className="flex flex-row w-full h-auto lg:h-56 my-14 lg:my-40 bg-gradient-to-br lg:px-30 from-neutral-900/90 flex items-center justify-start to-neutral-900/50 rounded-lg p-1 shadow-md">
               <>
                 <div className="lg:mx-4 lg:p-8 py-4 lg:py-16 flex items-center justify-center flex-col text-center w-full lg:w-auto lg:text-left lg:flex-none">
-                  <img src="https://media.discordapp.net/attachments/737347015251460156/1313966525111074836/image.png?ex=67520e2f&is=6750bcaf&hm=42cac37cae7dbf90e6a5e0804fcfaf0575adbdec3a14078fb2597caa9f0c5033&=&format=webp&quality=lossless&width=687&height=421"  width="256" className="lg:hidden rounded-xl mb-5 shadow-xl shadow-black" />
-                  <p className="text-3xl text-white font-semibold">Best Your Bot</p>
-                  <p className="text-md text-white font-medium text-gray-500 line-clamp-5">Are you ready to throw the best parties with MusicMaker, the best and most up-to-date bot?</p>
+                  <img src="https://media.discordapp.net/attachments/1246626049484259479/1338882629574856765/46faed446f96641828ad01eae1d0cd90.png?ex=67acb31e&is=67ab619e&hm=643c29525d29098edd443295b48572c4ba52a13fcd46ef4c59509dc4d05eb076&=&format=webp&quality=lossless"  width="256" className="lg:hidden rounded-xl mb-5 shadow-xl shadow-black" />
+                  <p className="text-3xl text-white font-semibold">Bot tốt nhất của bạn</p>
+                  <p className="text-md text-white font-medium text-gray-500 line-clamp-5">Bạn có hào hứng tạo ra những khoảnh khắc khó quên với Milo Bot, người bạn đồng hành quản lý máy chủ tối ưu của mình không? Hãy sẵn sàng tương tác với cộng đồng của bạn bằng các lệnh thú vị và kiểm duyệt liền mạch!</p>
                 </div>
-                <img src="https://media.discordapp.net/attachments/737347015251460156/1313966525111074836/image.png?ex=67520e2f&is=6750bcaf&hm=42cac37cae7dbf90e6a5e0804fcfaf0575adbdec3a14078fb2597caa9f0c5033&=&format=webp&quality=lossless&width=687&height=421" className="hidden lg:block rounded-xl perspective-right shadow-xl shadow-black" />
+                <img src="https://media.discordapp.net/attachments/1246626049484259479/1338882629574856765/46faed446f96641828ad01eae1d0cd90.png?ex=67acb31e&is=67ab619e&hm=643c29525d29098edd443295b48572c4ba52a13fcd46ef4c59509dc4d05eb076&=&format=webp&quality=lossless" className="hidden lg:block rounded-xl perspective-right shadow-xl shadow-black" />
               </>
       
         </div>
